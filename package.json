@@ -1,6 +1,6 @@
 {
   "name": "@ibm/federated-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dynamic import of remote components with module federation",
   "main": "dist/index.js",
   "files": [
