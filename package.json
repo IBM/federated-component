@@ -2,10 +2,12 @@
   "name": "@ibm/federated-component",
   "version": "0.0.2",
   "description": "Dynamic import of remote components with module federation",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "test",
-    "build": "craco build"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -25,15 +27,20 @@
   },
   "homepage": "https://github.com/IBM/federated-component#readme",
   "devDependencies": {
-    "@craco/craco": "^7.1.0",
-    "@craco/types": "^7.1.0",
     "@types/react": "^18.3.12",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typescript": "^5.6.3"
   },
   "peerDependencies": {
     "@types/react": "^18.3.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   }
 }
