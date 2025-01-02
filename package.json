@@ -27,15 +27,15 @@
   },
   "homepage": "https://github.com/IBM/federated-component#readme",
   "devDependencies": {
-    "@types/react": "^18.3.12",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@types/react": "^19.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "typescript": "^5.6.3"
   },
   "peerDependencies": {
-    "@types/react": "^18.3.12",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@types/react": "^19.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "exports": {
     ".": {
